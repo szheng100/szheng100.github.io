@@ -1,16 +1,19 @@
     body {
-        background-color:rgb(255, 230, 238)
+        background-color:rgb(255, 230, 238);
     }
     h1 {
         color:rgb(71, 28, 56);
         font-family: "Lucida Console", monospace;
+        margin: 20px;
     }
     h3 {
         color:rgb(71, 28, 56);
         font-family: "Lucida Console", monospace;
+        margin: 20px;
     }
     p {
         color:rgb(80, 65, 94);
         font-family: "Lucida Console", monospace;
+        margin: 20px;
     }
     
