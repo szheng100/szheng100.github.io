@@ -16,4 +16,11 @@
         font-family: "Lucida Console", monospace;
         margin: 20px;
     }
+    .title_bar {
+        background-color:rgb(181, 139, 167);
+        margin: auto;
+        padding: 1%;
+        text-align: center;
+    }
+  
     
