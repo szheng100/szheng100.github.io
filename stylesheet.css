@@ -1,26 +1,55 @@
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     body {
-        background-color:rgb(255, 230, 238);
+        background-color:rgb(241, 226, 232);
     }
-    h1 {
+    .headers {
         color:rgb(71, 28, 56);
         font-family: "Lucida Console", monospace;
         margin: 20px;
     }
-    h3 {
-        color:rgb(71, 28, 56);
-        font-family: "Lucida Console", monospace;
-        margin: 20px;
-    }
-    p {
+    .text {
         color:rgb(80, 65, 94);
         font-family: "Lucida Console", monospace;
         margin: 20px;
     }
     .title_bar {
-        background-color:rgb(181, 139, 167);
+        background-color:rgb(184, 137, 149);
         margin: auto;
         padding: 1%;
         text-align: center;
     }
-  
+    .nav_bar {
+        background-color:rgb(135, 65, 83);
+        font-family: "Lucida Console", monospace;
+        padding: .9%;
+        display: block;
+        overflow: hidden;
+    }
+    .nav_links {
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav_links a {
+        color:rgb(61, 24, 48);
+        display: block;
+        padding: 3px 15px;
+        text-align: center;
+        text-decoration: none;
+        float: left;
+    }
+    .nav_links a:hover {
+        background-color:rgb(255, 230, 238);
+        transition: .5s;
+    }
+    .active {
+        background-color:rgb(255, 230, 238);
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
