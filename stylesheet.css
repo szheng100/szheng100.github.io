@@ -1,7 +1,20 @@
     body {
         background-color:rgb(241, 226, 232);
     }
-    .headers {
+    .header_img {
+        width: 45%;
+        min-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_img {
+        width: 20%;
+        min-width: 250px;
+        display: block;
+        margin: auto;
+    }
+    .header {
         color:rgb(56, 22, 44);
         font-family: "Lucida Console", monospace;
         margin: 20px;
@@ -48,15 +61,16 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .column {
-        float: left;
+    .row {
+        display: flex;
     }
-    .column.main {
-        width: 75%;
+    .col_6 {
+        flex: 6;
     }
-    .column.side {
-        width: 25%;
+    .col_5 {
+        flex: 5;
     }
-    #about_me_img {
-        padding: 15px;
+    .col_4 {
+        flex: 4;
     }
+    
