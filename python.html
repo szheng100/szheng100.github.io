@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <style>
+        .titleandlink {
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        p {
+            padding: 20px;
+        }
+        td {
+            border: 1px solid black;
+        }
+        table {
+            border: 2px solid black;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title_bar">
+    <h1 class="headers">- All About Selina -</h1></div>
+    <div class="nav_bar">
+        <div class="nav_links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="pcbuild.html">PC Build Guide</a>
+            <a href="python.html" class="active">Python Projects</a>
+            </div>
+    </div>
+
+<table>
+    <!--This row holds all the titles of the columns-->
+    <tr>
+        <td width="300" class="titleandlink"><h3>Preview</h3></td>
+        <td width="300" class="titleandlink"><h3>Description</h3></td>
+        <td width="300" class="titleandlink"><h3>Link</h3></td>
+    </tr>
+
+    <!--This project was to draw a house using the turtle module-->
+    <tr>
+        <td><img src="house.png" width="200" class="img"></td>
+        <td><p>My first endeavor into using the turtle module in Python. The objective was to create a picture of a house and tree. In addition, I decorated the tree for Christmas as my personal touch.</p></td>
+        <td class="titleandlink"><a href="">house.py</a></td>
+    </tr>
+
+    <!--This project was to create a working madlib-->
+    <tr>
+        <td><img src="madlib.png" width="200" class="img"></td>
+        <td><p>A lesson in variables. The objective was to create a functional mad lib that could be run with the Python terminal. This taught me how to use variables and concatenate strings.</p></td>
+        <td class="titleandlink"><a href="">mad_lib.py</a></td>
+    </tr>
+</table>
+
+</body>
+</html>
